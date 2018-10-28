@@ -108,7 +108,7 @@ class DateTimePicker(DateTimeInput):
 
         if value != '':
             input_attrs.update({
-                'value': force_text(self._format_value(value))
+                'value': force_text(self.format_value(value))
             })
 
         self.div_attrs.update({
